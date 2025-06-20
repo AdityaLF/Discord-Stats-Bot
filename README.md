@@ -2,7 +2,7 @@
 
 A simple yet functional Discord bot built with Python using the `discord.py` library. It provides live server member statistics and a clean interface via slash commands.
 
-<img src="https://i.postimg.cc/0NZSybs6/image.png" width="400" />
+<img src="https://i.postimg.cc/0NZSybs6/image.png" width="580" />
 
 ---
 
@@ -55,7 +55,7 @@ cd discord-stats-bot
 
 ### 4.
 
-Replace 'YOUR_BOT_TOKEN' with your actual bot token
+Replace 'YOUR_BOT_TOKEN_HERE' with your actual bot token
 ```bash
 YOUR_BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
 ```
@@ -72,13 +72,12 @@ python bot.py
 
 ## 👤 Author
 
-* **GitHub** → [@AdityaLF](https://github.com/AdityaLF)
-* **Discord** → [@05.07am](https://discordapp.com/users/786163564205047839)
-* **Support Me (Ko-fi)** → [ko-fi.com/adityaf](https://ko-fi.com/adityaf)
+* **GitHub**: [@AdityaLF](https://github.com/AdityaLF)
+* **Discord**: [@05.07am](https://discordapp.com/users/786163564205047839)
+* **Support Me**: [ko-fi.com/adityaf](https://ko-fi.com/adityaf)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**
-You are free to use, modify, and share this project.
+This project is licensed under the **MIT License** — You are free to use, modify, and share this project.
