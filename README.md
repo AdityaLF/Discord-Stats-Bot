@@ -53,16 +53,22 @@ git clone https://github.com/AdityaLF/discord-stats-bot.git
 cd discord-stats-bot
 ```
 
-### 4.
+### 4. Install Dependencies 
 
-Replace 'YOUR_BOT_TOKEN_HERE' with your actual bot token
+```bash
+pip install discord.py
+```
+
+### 5. Set Bot Token
+
+Replace YOUR_BOT_TOKEN_HERE with your actual bot token
 ```bash
 YOUR_BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
 ```
 
-### 5. Run the Bot
+### 6. Run the Bot
 
-After configuring your environment variables and installing dependencies, you can start the bot with:
+After saving your configuration and installing the dependencies, you can start the bot with:
 
 ```bash
 python bot.py
@@ -80,4 +86,4 @@ python bot.py
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — You are free to use, modify, and share this project.
+This project is licensed under the [MIT License](LICENSE).
