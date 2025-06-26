@@ -6,7 +6,7 @@ from discord.ui import Button, View, Select
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
 YOUR_BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
 # Replace 'YOUR_GUILD_ID' with the ID of your Discord server
-YOUR_GUILD_ID = YOUR_GUILD_ID_HERE # remove if not using guild-specific sync
+YOUR_GUILD_ID = YOUR_GUILD_ID_HERE
 
 GITHUB_PROFILE = "https://github.com/AdityaLF" 
 DISCORD_USER = "https://discordapp.com/users/786163564205047839" 
@@ -98,11 +98,7 @@ class MemberInfoView(View):
 
     @discord.ui.button(label="📜 Info & Help", style=discord.ButtonStyle.blurple, custom_id="info_help_button")
     async def info_help_button_callback(self, interaction: discord.Interaction, button: Button):
-        """
-        Callback for the 'Info & Help' button, sends an embed containing
-        links to GitHub, Discord user, Discord server, and a support link.
-        The embed has a blue color.
-        """
+
         embed = discord.Embed(
             title="✨ Server Information & Help",
             description="Here's some important information and useful links for you:",
