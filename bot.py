@@ -105,10 +105,10 @@ class MemberInfoView(View):
             color=discord.Color.blurple()
         )
 
-        embed.add_field(name="🔗 GitHub", value=f"[Visit GitHub Profile]({GITHUB_PROFILE})", inline=False)
-        embed.add_field(name="🎮 Discord", value=f"[@05.07am]({DISCORD_USER})", inline=False)
-        embed.add_field(name="💬 Discord Server", value=f"[Join Our Server]({DISCORD_SERVER_INVITE})", inline=False)
-        embed.add_field(name="❤️ Support Me", value=f"[Buy Me a Coffee]({SUPPORT_ME_KOFI})", inline=False)
+        embed.add_field(name="GitHub", value=f"[Visit GitHub Profile]({GITHUB_PROFILE})", inline=False)
+        embed.add_field(name="Discord", value=f"[@05.07am]({DISCORD_USER})", inline=False)
+        embed.add_field(name="Discord Server", value=f"[Join Our Server]({DISCORD_SERVER_INVITE})", inline=False)
+        embed.add_field(name="Support Me", value=f"[Buy Me a Coffee]({SUPPORT_ME_KOFI})", inline=False)
         
         embed.set_thumbnail(url=self.guild.icon.url if self.guild.icon else None)
 
